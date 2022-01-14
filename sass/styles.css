@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading {
+  position: absolute;
+  top: 20%;
+  font-size: 3rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.container form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container form input {
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 2rem;
+}
+
+.container button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  background-color: cadetblue;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.done h1 {
+  opacity: 0.6;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  text-decoration: line-through;
+}
+
+.done button {
+  opacity: 1;
+}
+
+.toDo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 7px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toDo h1 {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toDo .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 5px;
+}
+
+.toDo .buttons button {
+  padding: 1rem 1.65rem;
+}
+
+#filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 500px;
+  height: 40px;
+  border: 1px solid black;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+/*# sourceMappingURL=styles.css.map */
